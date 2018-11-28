@@ -17,6 +17,17 @@ export default class List {
       .then(data => console.log(data))
       .catch(error => console.error(error));
   }
+<<<<<<< HEAD
+=======
+
+  filterLectures() {
+    var 
+    if(!pressButton)
+
+  }
+
+  showLectures() {
+>>>>>>> Fridrik
 
   filterLectures() {
     
