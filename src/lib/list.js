@@ -17,17 +17,17 @@ export default class List {
       .then(data => console.log(data))
       .catch(error => console.error(error));
   }
-<<<<<<< HEAD
-=======
 
   filterLectures() {
-    var 
+    document.getElementById("Button__HTML").addEventListener("click",
+    function(){
+      document.getElementById("")
+    })
     if(!pressButton)
 
   }
 
   showLectures() {
->>>>>>> Fridrik
 
   filterLectures() {
     
