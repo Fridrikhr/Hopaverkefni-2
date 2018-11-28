@@ -18,6 +18,7 @@ html { /* stylelint-disable-line */
 
   font-family: $font-main;
   font-size: 16px;
+  background-color: blue; 
 }
 
 img { /* stylelint-disable-line */
@@ -27,13 +28,17 @@ img { /* stylelint-disable-line */
 
 }
 .meginmál__fyrirlestrar{
-
+display: flex;
+flex-direction: column;
+background-color: blue; 
 }
 .fyrirlestrar__lína{
-
+display:flex;
+flex-direction: row;
+background-color: blue;
 }
 .lína__box{
-  
+background-color: #ccc;  
 }
 
 // TODO import
