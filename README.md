@@ -3,15 +3,11 @@ Vefforritun 1
 
 ## Upplýsingar um hvernig keyra skuli verkefnið
 
-Annað hópverkefni annarinnar fólst í því að forrita vefsvæði fyrir fyrirlestra í vefforritun. Þetta verkefni er hægt að finna á slóðinni   
-
-Öllum dæmakennurum hefur verið boðið í repository https://github.com/Fridrikhr/Hopaverkefni-2
- og þar skal fara inn í branch hjá Karen til að sjá lokaútgáfu af kóða þarsem master tók ekki við commitum.
-(Fengum enga villu uppgefna og terminal sagði að maður væri up to date með master en inn á honum var enging kóði. Því höfðum við hann inn á einu af okkar brönchum)
+Annað hópverkefni annarinnar fólst í því að forrita vefsvæði fyrir fyrirlestra í vefforritun. Þetta verkefni er hægt að finna á slóðinni notendur.hi.is/kpk/vefforritun/hopaverkefni2. Öllum dæmakennurum hefur verið boðið í repository https://github.com/Fridrikhr/Hopaverkefni-2. Lokaútgáfuna má finna á master branch. Við lentum í veseni með að birta fyrirlestrana þegar ýtt var á gluggann og gátum ekki lagað það. 
 
 ## Lýsing á uppsetningu verkefnis 
 
-Verkefnið er nokkuð óbreytt frá þeirri uppsetningu sem var gefin. Í möppunni src má finna tvær möppur: lib og styles. Í lib er helpers.js og list.js. Í styles er að finna sömu skrár og upphaflega voru. Í src má einnig finna fyrirlestur.js og index.js. 
+Verkefnið er nokkuð óbreytt frá þeirri uppsetningu sem var gefin. Í möppunni src má finna tvær möppur: lib og styles. Í lib er dom.js, helpers.js, list.js og storage.js. Í styles er að finna sömu skrár og upphaflega voru. Í src má einnig finna fyrirlestur.js og index.js. 
 
 ## Upplýsingar um alla sem unnu verkefnið
 
