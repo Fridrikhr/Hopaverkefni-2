@@ -9,8 +9,8 @@ export default class List {
   loadLectures() {
     fetch('../lectures.json')
       .then((result) => {
-        if(!result.ok) {
-          throw new Error ('Non 200 status');
+        if (!result.ok) {
+          throw new Error('Non 200 status');
         }
         return result.json();
       })
@@ -18,27 +18,9 @@ export default class List {
       .catch(error => console.error(error));
   }
 
-  filterLectures() {
-    document.getElementById("Button__HTML").addEventListener("click",
-    function(){
-      document.getElementById("")
-    })
-    if(!pressButton)
-
-  }
-
-  showLectures() {
-
-  filterLectures() {
-    
-  }
-
-
-
   load() {
     empty(this.container);
     this.loadLectures()
-      .then(data => this.filterLectures(data))
-      .then(filter =)
+      .then(data => this.filterLectures(data));
   }
 }

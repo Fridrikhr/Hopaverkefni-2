@@ -4,7 +4,7 @@ export function empty(element) {
   }
 }
 
-function el(type, className, clickHandler) {
+export function el(type, className, clickHandler) {
   const element = document.createElement(type);
 
   if (className) {
@@ -12,7 +12,7 @@ function el(type, className, clickHandler) {
   }
 
   if (clickHandler) {
-    element.addEventListener('click', clickHandler)
+    element.addEventListener('click', clickHandler);
   }
 
   return element;

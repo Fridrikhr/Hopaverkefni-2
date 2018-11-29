@@ -18,27 +18,30 @@ html { /* stylelint-disable-line */
 
   font-family: $font-main;
   font-size: 16px;
-  background-color: blue; 
+  background-color: rgb(0, 0, 255);
+
 }
 
 img { /* stylelint-disable-line */
   max-width: 100%;
 }
-.meginmál__filterar{
+
+.meginmál__fyrirlestrar {
+  display: flex;
+  flex-direction: column;
+  background-color: rgb(0, 0, 255);
 
 }
-.meginmál__fyrirlestrar{
-display: flex;
-flex-direction: column;
-background-color: blue; 
+
+.fyrirlestrar__lína {
+  display: flex;
+  flex-direction: row;
+  background-color: rgb(0, 0, 255);
+  /* stylelint-disable-line*/
 }
-.fyrirlestrar__lína{
-display:flex;
-flex-direction: row;
-background-color: blue;
-}
-.lína__box{
-background-color: #ccc;  
+
+.lína__box {
+  background-color: #ccc;
 }
 
 // TODO import
