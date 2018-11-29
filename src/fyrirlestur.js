@@ -341,7 +341,7 @@
     }
   }
   function loadData(isLecturePage, page) {
-    fetch('lectures.json').then(function (response) {
+    fetch('../lectures.json').then(function (response) {
       if (response.ok) {
         return response.json();
       }
