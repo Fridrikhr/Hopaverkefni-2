@@ -9,7 +9,7 @@ export function empty(element) {
 }
 
 export function loadData(isLecturePage, page) {
-  fetch('../hopverkefni2/lectures.json')
+  fetch('../lectures.json')
     .then((response) => {
       if (response.ok) {
         return response.json();
