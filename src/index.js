@@ -1,9 +1,5 @@
 
 
-  if (isLecturePage) { 
-
-  }
-  
 (function () {
   'use strict';
 
