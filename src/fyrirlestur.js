@@ -1,5 +1,3 @@
-
-//comment
 (function () {
     'use strict';
   
@@ -384,6 +382,8 @@
         addListeners(page);
       }
     });
+
+    
   
   }());
   
