@@ -3,10 +3,9 @@ Vefforritun 1
 
 ## Upplýsingar um hvernig keyra skuli verkefnið
 
-Annað hópverkefni annarinnar fólst í því að forrita vefsvæði fyrir fyrirlestra í vefforritun. Þetta verkefni er hægt að finna á slóðinni 
+Annað hópverkefni annarinnar fólst í því að forrita vefsvæði fyrir fyrirlestra í vefforritun. Þetta verkefni er hægt að finna á slóðinni   
 
-Öllum dæmakennurum hefur verið boðið í repository 
-
+Öllum dæmakennurum hefur verið boðið í repository https://github.com/Fridrikhr/Hopaverkefni-2
  og þar skal fara inn í branch hjá Karen til að sjá lokaútgáfu af kóða þarsem master tók ekki við commitum.
 (Fengum enga villu uppgefna og terminal sagði að maður væri up to date með master en inn á honum var enging kóði. Því höfðum við hann inn á einu af okkar brönchum)
 

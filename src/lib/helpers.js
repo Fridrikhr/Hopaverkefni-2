@@ -1,18 +1,40 @@
+import {
+  loadDom,
+} from './dom';
+
 export function empty(element) {
   while (element.firstChild) {
     element.removeChild(element.firstChild);
   }
 }
 
-function el(type, className, clickHandler) {
-  const element = document.createElement(type);
+export function loadData(isLecturePage, page) {
+  fetch('../hopverkefni2/lectures.json')
+    .then((response) => {
+      if (response.ok) {
+        return response.json();
+      }
+      throw new Error('Villa kom upp');
+    })
+    .then((data) => {
+      loadDom(data, page, isLecturePage);
+    })
+    .catch((error) => {
+      console.error(error);
+    });
+}
 
-  if (className) {
-    element.classList.add(className);
-  }
+export function el(name, ...children) {
+  const element = document.createElement(name);
 
-  if (clickHandler) {
-    element.addEventListener('click', clickHandler)
+  if (Array.isArray(children)) {
+    children.forEach((child) => {
+      if (typeof child === 'string') {
+        element.appendChild(document.createTextNode(child));
+      } else if (child) {
+        element.appendChild(child);
+      }
+    });
   }
 
   return element;
