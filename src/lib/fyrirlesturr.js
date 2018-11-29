@@ -23,3 +23,6 @@ fetchJSONFile('../lectures.json', function(data){
 
     console.log(data);
 });
+
+
+
